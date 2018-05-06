@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.6.0
+Type=Application
+Name=print_app
+Comment=An app that prints everything you want in the terminal
+# myscript should wait for user input at the end, else the terminal
+# window will disappear immediately.
+Exec=print_app
+Icon=/usr/share/icons/gnome/48x48/apps/gnome-terminal.png
+Categories=Utility;
+# desktop should run this in a terminal application
+Terminal=true
+StartupNotify=true
+StartupWMClass=print_app
