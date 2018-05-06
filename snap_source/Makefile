@@ -1,2 +1,0 @@
-publish:
-	python3.6 setup.py sdist bdist_wheel upload
